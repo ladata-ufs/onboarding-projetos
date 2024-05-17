@@ -93,4 +93,4 @@ Os dados necessariamente devem ser importados do formato csv e tratados por meio
 - Atualizar a branch main com todas as alterações.
 - Anotar as bibliotecas utilizadas e incluir um arquivo "requirements.txt"
 
-**Lembrando que o objetivo desse projeto não é avaliar, e sim, dar uma noção de como funcionaria a parte de projetos na prática.**
+**Lembrando que o objetivo desse projeto não é avaliar, e sim, dar uma noção de como funcionaria a parte de projetos na prática.** 
