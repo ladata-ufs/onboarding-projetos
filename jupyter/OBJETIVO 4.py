@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #Lendo o Data Frame
-df_poke_pow_gen = pd.read_csv("C:\\Users\\MiChA\\OneDrive\\Documentos\\Codes\\POKEMONS\\POKEMONS\\pokemon.csv")
+df_poke_pow_gen = pd.read_csv("pokemon.csv")
 
 #Ordenando a porcentagem de população masculina de forma decrescente e removendo os casos NULOS, para conseguir separar as populações da melhor maneira.
 clasf_gen = df_poke_pow_gen.sort_values('percentage_male', ascending=False, na_position='first').dropna(subset=['percentage_male'], axis='index', ignore_index=True)
